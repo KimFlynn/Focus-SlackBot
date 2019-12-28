@@ -1,0 +1,47 @@
+[
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "Hi! 👋 I'm Focus-Bot. I'm here to help you task manage, create critical todo lists, and keep you on track in Slacck \n I can do the following:"
+		}
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "📌 `/agenda` allows you to set a meeting agenda list. A small check list will appear where you can add and check off items."
+		}
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "🗒️ Type `/addsubject` followed by each key subject with a comma in between to set the meeting subject. If the topic of key words are not mentioned within 15 comments, I will send a brief reminder. To end this, type `/endsubject` "
+		}
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "📒 Type `/list` to add an item to your ToDo list. You can rank importance, 1 is high importance and 10 low. Critical reminders (1-3) will be reminded each day, or when a due date is approaching for other tasks. "
+		}
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": " 💻 `/Google` followed by the search topic, pulls up the first search result without leaving Slack. "
+		}
+	},
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "💡🚀Let's do this!🚀💡 "
+		}
+	}
+]
