@@ -1,4 +1,5 @@
 #@author Kim Flynn 12/29/2019 using standard slacklient-python setup
+#This class allows slack-bot to respond to events 
 
 import os
 import logging
@@ -7,7 +8,7 @@ import ssl as ssl_lib
 import certifi
 from onboarding_tutorial import OnboardingTutorial
 
-onboarding_tutorials_sent = {}
+onboarding_tutorials_sent = {} #from slack-client python 
 
 def start_onboarding(web_client: slack.WebClient, user_id: str, channel: str):
     # Create a new onboarding tutorial.
