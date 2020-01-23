@@ -1,0 +1,20 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Brief reminder to stay on topic. Please see agenda for details."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Agenda",
+					"emoji": true
+				},
+				"value": "click_me_123"
+			}
+		}
+	]
+}
